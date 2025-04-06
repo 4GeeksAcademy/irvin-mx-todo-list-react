@@ -16,7 +16,6 @@ const Home = () => {
 		setInputValue(e.target.value)
 	}
 	const handleEnterKey = (e) => {
-		console.log(typeof e.code)
 		if (e.code === "Enter" && inputValue.length > 0) {
 			//console.log(inputValue)
 			//Add tasks to tasksArray
